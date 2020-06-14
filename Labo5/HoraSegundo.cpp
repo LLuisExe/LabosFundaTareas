@@ -1,3 +1,6 @@
+// La info de la libreria de "time.h" la he sacado de:
+// http://www.cplusplus.com/reference/ctime/
+
 #include "iostream"
 #include "math.h"
 #include "time.h"
