@@ -53,6 +53,8 @@ void sumaArre(int tm, int a[], int b[], int ab[])
     b[tm];
     ab[tm];
 
+    //se repite hasta haver suamdo todos los elementos de los areglos
+    //solo se suman los elementos en el mismo numero de casilla 
     for(int i = 0 ; i < tm ; i++)
     {
         ab[i] = a[i] + b[i]; 

@@ -47,6 +47,7 @@ void leerArre(int tm, int x[])
 //verifica cuantas veses se repite el numero pedido
 int contador_num(int num, int repe, int tm, int x[])
 {
+    //se repite hasta haver comparado todos los elementos
     for(int i = 0;i < tm;i++)
     {
         if(x[i] == num)
